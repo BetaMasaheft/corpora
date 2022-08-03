@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<teiCorpus>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus10">
+    <teiHeader>
+      <fileDesc>
+        <!--INFORMATION ON THE ELECTRONIC EDITION-->
+        <titleStmt>
+          <title xml:id="title10" type="corpus">Archives of Hayq</title>
+          <principal xml:id="principal10">
+            <persName>
+              <forename>Manfred</forename>
+              <surname>Kropp</surname>
+            </persName>
+          </principal>
+          <respStmt>
+            <resp>création du fichier électronique et responsable de l'édition électronique</resp>
+            <persName>
+              <forename>Cyril</forename>
+              <surname>Masset</surname>
+            </persName>
+            <persName>
+              <forename>Anaïs</forename>
+              <surname>Wion</surname>
+            </persName>
+          </respStmt>
+          <respStmt>
+            <resp>Révision du fichier électronique (avril 2011)</resp>
+            <persName>
+              <forename>Lou</forename>
+              <surname>Burnard</surname>
+            </persName>
+          </respStmt>
+        </titleStmt>
+        <editionStmt xml:id="editionStmt10" xml:lang="eng">
+          <p>draft for electronic publishing</p>
+        </editionStmt>
+        <publicationStmt>
+          <publisher>Institut de Recherche et d'Histoire des Textes</publisher>
+          <authority>Section de diplomatique</authority>
+          <address>
+            <postCode>45071 Orléans</postCode>
+            <name n="F">France</name>
+          </address>
+        </publicationStmt>
+        <sourceDesc>
+          <!--DESCRIPTION OF THE MANUSCRIPT-->
+          <p/>
+        </sourceDesc>
+      </fileDesc>
+      <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
+      <encodingDesc>
+        <projectDesc>
+          <p xml:id="projectDesc10">This is a series of documents inserted in the so-called Golden Gospel or Gospel of Iyäsus-Moʾa, belonging to and housed in the church of the monastery Qǝddus Ǝsṭifanos (St. Stephen) in the lake of Hayq. The documents are dating from the late 13th to the beginning of the 16th century. As for the contents they represent historical narratives, covenants between the abbot of Hayq and the Ethiopian emperors, acts of privileges, donations and tax exemptions for the monastery, and, in number most important, regulations about the täzkar (memorial feast) for different persons, always linked to rights and usage of plots of land given to the monastery or belonging to it.</p>
+        </projectDesc>
+      </encodingDesc>
+      <revisionDesc>
+        <change when="2017-07-19">Création du fichier xml</change>
+      </revisionDesc>
+    </teiHeader>
+  </TEI>
+</teiCorpus>
