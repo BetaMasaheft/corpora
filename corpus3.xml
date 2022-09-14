@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus3">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus3">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
@@ -62,5 +61,16 @@
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
     </teiHeader>
+  <TEI>
+    <teiHeader>
+      <fileDesc><titleStmt>
+        <title></title>
+      </titleStmt>
+      <publicationStmt><ab/></publicationStmt>
+      <sourceDesc><ab/></sourceDesc></fileDesc>
+    </teiHeader>
+    <text>
+     <body><ab/></body>
+    </text>
   </TEI>
 </teiCorpus>
