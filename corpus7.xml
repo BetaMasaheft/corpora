@@ -52,7 +52,7 @@
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc7">  These are series documents </p>
+          <p>  These are series documents </p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
