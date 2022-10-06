@@ -54,8 +54,8 @@
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>
-  <TEI>
+    </teiHeader>  
+  <TEI xml:id="MyTextNumber1">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -71,10 +71,14 @@
       </fileDesc>
     </teiHeader>
     <text>
-      <body><ab/></body>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
     </text>
   </TEI>
-  <TEI>
+  <TEI xml:id="MyTextNumber2">
     <teiHeader>
       <fileDesc>
         <titleStmt>
@@ -90,7 +94,11 @@
       </fileDesc>
     </teiHeader>
     <text>
-      <body><ab/></body>
+      <body>
+        <div>
+          <p><!-- ... --></p>
+        </div>
+      </body>
     </text>
   </TEI>
 </teiCorpus>
