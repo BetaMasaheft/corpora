@@ -2,7 +2,7 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus2">
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
      <teiHeader>
          <fileDesc>
              <titleStmt>
@@ -32,21 +32,13 @@
                      </persName>
                  </respStmt>
              </titleStmt>
-             <publicationStmt>
-                 <publisher>Institut de Recherche et d'Histoire des Textes</publisher>
-                 <authority>Section de diplomatique</authority>
-                 <address>
-                     <postCode>45071 Orléans</postCode>
-                     <name n="F">France</name>
-                 </address>
-             </publicationStmt>
-             <sourceDesc>
-                 <p>Dans les documents conservés dans les manuscrits des églises du Lasta, on observe de nombreuses références croisées, au moins pour les XVIIe et XVIIIe siècles, qui justifient de considérer ces manuscrits dans un corpus commun.</p>
-             </sourceDesc>
+	        <publicationStmt>
+	           <p>Publication Information</p>
+	        </publicationStmt>
+	        <sourceDesc>
+	           <p>Information about the source</p>
+	        </sourceDesc>
          </fileDesc>
-         <revisionDesc>
-             <change when="2017-07-19">Création du fichier xml</change>
-         </revisionDesc>
      </teiHeader>
      <TEI xml:id="MyTextNumber1">
          <teiHeader>
