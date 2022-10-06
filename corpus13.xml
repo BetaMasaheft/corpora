@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus13">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus13">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title13" type="corpus">Archives des établissements eustathéens</title>
-          <principal xml:id="principal13">
+          <title>Archives des établissements eustathéens</title>
+          <principal>
             <persName>
               <forename>Olivia</forename>
               <surname>Adankpo</surname>
@@ -39,7 +41,7 @@
           <authority>Section de diplomatique</authority>
           <address>
             <postCode>45071 Orléans</postCode>
-            <name n="F">France</name>
+            <name>France</name>
           </address>
         </publicationStmt>
         <sourceDesc>
@@ -50,11 +52,11 @@
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc13">Ce dossier regroupe un ensemble de documents d'archives de nature variée. Il s'agit de donations de biens ou de privilèges fonciers, d'inventaires, de règlements, de généalogies ou de compositions littéraires produites et/ou conservées dans les établissements affiliés à la communauté eustathéenne. L'analyse de ces pièces permettra d'approfondir l'histoire, la géographie et l'économie de ce réseau monastique du XIVe au XVIIIe siècle. Ce corpus est en partie le résultat de missions de recherches effectuées dans le nord de l'Éthiopie dans le cadre de mon travail doctoral.</p>
+          <p>Ce dossier regroupe un ensemble de documents d'archives de nature variée. Il s'agit de donations de biens ou de privilèges fonciers, d'inventaires, de règlements, de généalogies ou de compositions littéraires produites et/ou conservées dans les établissements affiliés à la communauté eustathéenne. L'analyse de ces pièces permettra d'approfondir l'histoire, la géographie et l'économie de ce réseau monastique du XIVe au XVIIIe siècle. Ce corpus est en partie le résultat de missions de recherches effectuées dans le nord de l'Éthiopie dans le cadre de mon travail doctoral.</p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>     <text><body><ab></ab></body></text>
+    </teiHeader>     <text><body><p></p></body></text>
   </TEI>

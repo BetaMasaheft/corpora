@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus14">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus14">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title14" type="corpus">Archives of Atkanā Giyorgis parish (Begamdēr)</title>
-          <principal xml:id="principal14">
+          <title>Archives of Atkanā Giyorgis parish (Begamdēr)</title>
+          <principal>
             <persName>
               <forename>Anaïs </forename>
               <surname>Wion</surname>
@@ -31,7 +33,7 @@
             </persName>
           </respStmt>
         </titleStmt>
-        <editionStmt xml:id="editionStmt14" xml:lang="eng">
+        <editionStmt xml:lang="eng">
           <p>draft</p>
         </editionStmt>
         <publicationStmt>
@@ -42,20 +44,24 @@
             <name n="F">France</name>
           </address>
         </publicationStmt>
-        <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
-          <p/>
+        <sourceDesc>          
+          <p>Two Amharic mss from Atkanā Giyorgis</p>
         </sourceDesc>
       </fileDesc>
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc14">
-                        <seg function="stress">The church of <placeName>Atkanā Giyorgis</placeName>, in Bagemdēr, was founded in 1596 by <persName><roleName>Rās</roleName> Walda Krestos</persName>, general of <persName>King Sarṣa Dengel</persName> (1563-97) and <roleName>betwaddad</roleName>. During the 18th century, the local elite has produced numerous documents to administrate their lands on the parish and beyond. This corpus is made of some sixty Amharic documents, preserved in two manuscripts.</seg> It is the first attempt to publish exhaustively such a corpus of lay administrativ acts in Amharic and therefore to document this great change that occur in all Christian Ethiopia at this period. </p>
+          <p>
+                        The church of <placeName>Atkanā Giyorgis</placeName>, in Bagemdēr, was founded in 1596 by <persName><roleName>Rās</roleName> Walda Krestos</persName>, general of <persName>King Sarṣa Dengel</persName> (1563-97) and <roleName>betwaddad</roleName>. During the 18th century, the local elite has produced numerous documents to administrate their lands on the parish and beyond. This corpus is made of some sixty Amharic documents, preserved in two manuscripts. It is the first attempt to publish exhaustively such a corpus of lay administrativ acts in Amharic and therefore to document this great change that occur in all Christian Ethiopia at this period. </p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>     <text><body><ab></ab></body></text>
+    </teiHeader>     
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
   </TEI>

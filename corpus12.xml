@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus12">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus12">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title12" type="corpus">Archives des fondations du souverain Gālawdēwos</title>
-          <principal xml:id="principal12">
+          <title>Archives des fondations du souverain Gālawdēwos</title>
+          <principal>
             <persName>
               <forename>Anaïs</forename>
               <surname>Wion</surname>
@@ -31,15 +33,15 @@
             </persName>
           </respStmt>
         </titleStmt>
-        <editionStmt xml:id="editionStmt12" xml:lang="fra">
-          <p>mai 2011, test</p>
+        <editionStmt>
+          <p></p>
         </editionStmt>
         <publicationStmt>
           <publisher>Institut de Recherche et d'Histoire des Textes</publisher>
           <authority>Section de diplomatique</authority>
           <address>
             <postCode>45071 Orléans</postCode>
-            <name n="F">France</name>
+            <name>France</name>
           </address>
         </publicationStmt>
         <sourceDesc>
@@ -50,11 +52,11 @@
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc12">Il s'agit de réunir les textes juridiques, administratifs et historiographiques relatifs aux fondations du roi Gālawdēwos (1540-59). Principalement à partir des manuscrits conservés à Makāna Samā‘et dans un premier temps, puis en incluant les documents conservés à Tadbāba Māryām. </p>
+          <p>Il s'agit de réunir les textes juridiques, administratifs et historiographiques relatifs aux fondations du roi Gālawdēwos (1540-59). Principalement à partir des manuscrits conservés à Makāna Samā‘et dans un premier temps, puis en incluant les documents conservés à Tadbāba Māryām. </p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>     <text><body><ab></ab></body></text>
+    </teiHeader>     <text><body><p></p></body></text>
   </TEI>
