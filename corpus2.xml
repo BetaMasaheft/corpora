@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_enrich.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus2">
-    <teiHeader>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+  <TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader xml:id="corpus2">
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
           <title>Archives du Lāstā</title>
-          <editor>
+          <principal>
             <persName>
               <forename>Claire</forename>
               <surname>Bosc-Tiessé</surname>
             </persName>
-          </editor>
+          </principal>
           <respStmt>
             <resp>création du fichier électronique et responsable de l'édition électronique</resp>
             <persName>
@@ -38,7 +37,11 @@
         </editionStmt>
         <publicationStmt>
           <publisher>Institut de Recherche et d'Histoire des Textes</publisher>
-          <authority>Section de diplomatique</authority>          
+          <authority>Section de diplomatique</authority>
+          <address>
+            <postCode>45071 Orléans</postCode>
+            <name>France</name>
+          </address>
         </publicationStmt>
         <sourceDesc>
           <p>Manuscripts from the churches of Lasta / Lalibala</p>
