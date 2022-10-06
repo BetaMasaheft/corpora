@@ -1,12 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"  schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
   <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus2">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title2" type="corpus">Archives du Lāstā</title>
-          <principal xml:id="principal2">
+          <title type="corpus">Archives du Lāstā</title>
+          <principal>
             <persName>
               <forename>Claire</forename>
               <surname>Bosc-Tiessé</surname>
@@ -31,31 +33,34 @@
             </persName>
           </respStmt>
         </titleStmt>
-        <editionStmt xml:id="editionStmt2" xml:lang="fra">
-          <p>test</p>
+        <editionStmt>
+          <p></p>
         </editionStmt>
         <publicationStmt>
           <publisher>Institut de Recherche et d'Histoire des Textes</publisher>
           <authority>Section de diplomatique</authority>
           <address>
             <postCode>45071 Orléans</postCode>
-            <name n="F">France</name>
+            <name>France</name>
           </address>
         </publicationStmt>
         <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
-          <p/>
+          <p>Manuscripts from the churches of Lasta / Lalibala</p>
         </sourceDesc>
       </fileDesc>
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc2">Dans les documents conservés dans les manuscrits des églises du Lasta, on observe de nombreuses références croisées, au moins pour les XVIIe et XVIIIe siècles, qui justifient de considérer ces manuscrits dans un corpus commun.</p>
+          <p>Dans les documents conservés dans les manuscrits des églises du Lasta, on observe de nombreuses références croisées, au moins pour les XVIIe et XVIIIe siècles, qui justifient de considérer ces manuscrits dans un corpus commun.</p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
     </teiHeader>     
-    <text><body><ab></ab></body></text>
+    <text>
+      <body>
+        <p></p>
+      </body>
+    </text>
   </TEI>
