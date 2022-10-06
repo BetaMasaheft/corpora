@@ -74,4 +74,23 @@
       <body><ab/></body>
     </text>
   </TEI>
+  <TEI>
+    <teiHeader>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
+    </teiHeader>
+    <text>
+      <body><ab/></body>
+    </text>
+  </TEI>
 </teiCorpus>
