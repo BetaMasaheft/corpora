@@ -7,13 +7,13 @@
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title2" type="corpus">Archives du Lāstā</title>
-          <principal xml:id="principal2">
+          <title>Archives du Lāstā</title>
+          <author>
             <persName>
               <forename>Claire</forename>
               <surname>Bosc-Tiessé</surname>
             </persName>
-          </principal>
+          </author>
           <respStmt>
             <resp>création du fichier électronique et responsable de l'édition électronique</resp>
             <persName>
@@ -33,7 +33,7 @@
             </persName>
           </respStmt>
         </titleStmt>
-        <editionStmt xml:id="editionStmt2" xml:lang="fra">
+        <editionStmt>
           <p>test</p>
         </editionStmt>
         <publicationStmt>
@@ -46,26 +46,29 @@
         </publicationStmt>
         <sourceDesc>
           <!--DESCRIPTION OF THE MANUSCRIPT-->
-          <p/>
+          <p>Dans les documents conservés dans les manuscrits des églises du Lasta, on observe de nombreuses références croisées, au moins pour les XVIIe et XVIIIe siècles, qui justifient de considérer ces manuscrits dans un corpus commun.</p>
         </sourceDesc>
       </fileDesc>
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
-      <encodingDesc>
-        <projectDesc>
-          <p xml:id="projectDesc2">Dans les documents conservés dans les manuscrits des églises du Lasta, on observe de nombreuses références croisées, au moins pour les XVIIe et XVIIIe siècles, qui justifient de considérer ces manuscrits dans un corpus commun.</p>
-        </projectDesc>
-      </encodingDesc>
+      
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
     </teiHeader>
   <TEI>
     <teiHeader>
-      <fileDesc><titleStmt>
-        <title></title>
-      </titleStmt>
-        <publicationStmt><ab/></publicationStmt>
-        <sourceDesc><ab/></sourceDesc></fileDesc>
+      <fileDesc>
+        <titleStmt>
+          <title><!-- ... --></title>
+          <author><!-- ... --></author>
+        </titleStmt>
+        <publicationStmt>
+          <p><!-- ... --></p>
+        </publicationStmt>
+        <sourceDesc>
+          <p><!-- ... --></p>
+        </sourceDesc>
+      </fileDesc>
     </teiHeader>
     <text>
       <body><ab/></body>
