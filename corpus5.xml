@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus5">
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus5">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title5" type="corpus">Archives Zagwē</title>
-          <principal xml:id="principal5">
+          <title>Archives Zagwē</title>
+          <principal>
             <persName>
               <forename>Marie-Laure</forename>
               <surname>Derat</surname>
@@ -39,23 +41,27 @@
           <authority>Section de diplomatique</authority>
           <address>
             <postCode>45071 Orléans</postCode>
-            <name n="F">France</name>
+            <name>France</name>
           </address>
         </publicationStmt>
         <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
-          <p/>
+          
+          <p>All documents produced under the Zagwe</p>
         </sourceDesc>
       </fileDesc>
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc5">Ce corpus rassemble tous les documents produits au cours du règne de la dynastie Zagwē (ca. XIe-XIIIe siècle). Aussi bien les documents produits par l'administration royale que ceux qui émanent d'autres institutions, religieuses par exemple, mais en lien avec la période. La construction de ce corpus est un outil pour travailler sur cette période encore très mal connue.</p>
+          <p>Ce corpus rassemble tous les documents produits au cours du règne de la dynastie Zagwē (ca. XIe-XIIIe siècle). Aussi bien les documents produits par l'administration royale que ceux qui émanent d'autres institutions, religieuses par exemple, mais en lien avec la période. La construction de ce corpus est un outil pour travailler sur cette période encore très mal connue.</p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
     </teiHeader>
+    <text>
+      <body>
+        <p></p>
+      </body>
+    </text>
   </TEI>
-</teiCorpus>

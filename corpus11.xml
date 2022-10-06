@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus11">
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus11">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title11" type="corpus">Archives of Wolde Meskel Centre</title>
-          <principal xml:id="principal11">
+          <title>Archives of Wolde Meskel Centre</title>
+          <principal>
             <persName>
               <forename>Shiferaw</forename>
               <surname>Bekele</surname>
@@ -39,18 +41,17 @@
           <authority>Section de diplomatique</authority>
           <address>
             <postCode>45071 Orléans</postCode>
-            <name n="F">France</name>
+            <name>France</name>
           </address>
         </publicationStmt>
         <sourceDesc>
-          <!--DESCRIPTION OF THE MANUSCRIPT-->
-          <p/>
+          <p>archives of the former Ministry of Land Reform and Administration now deposited in Wolde Meskel Centre</p>
         </sourceDesc>
       </fileDesc>
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc11">In this corpus, I include twenty gult "title deeds" from Tegray. These documents are found in a folder in the archives of the former Ministry of Land Reform and Administration now deposited in Wolde Meskel Centre, IES. In this archive, there is only one folder for Tegray while the other provinces of the imperial period had more than one, in the case of southern provinces running to over ten folders. In the folder for Tegray, there are 17 (?) files. However, I got all the twenty documents in two files. Each document was made in the name of a lord (mekwanent) or in the name of a monastery. So my corpus contains as many persons and churches as the gult documents. These gult documents were prepared by district or higher level provincial administrations of Tegray in the1940s following government instructions that district administrations should prepare these kinds of documents. All bale-gult were instructed by government notice (I have to establish the details) to go to the district or higher administrative offices in order todeclare their gults and to get this gult certificate. Tentatively, I call it "certificate" and I use this term alternatively with the word "title deed".  It is like a title deed, because it entitlted the person or the church to the rights over, and from, the gults. 
+          <p>In this corpus, I include twenty gult "title deeds" from Tegray. These documents are found in a folder in the archives of the former Ministry of Land Reform and Administration now deposited in Wolde Meskel Centre, IES. In this archive, there is only one folder for Tegray while the other provinces of the imperial period had more than one, in the case of southern provinces running to over ten folders. In the folder for Tegray, there are 17 (?) files. However, I got all the twenty documents in two files. Each document was made in the name of a lord (mekwanent) or in the name of a monastery. So my corpus contains as many persons and churches as the gult documents. These gult documents were prepared by district or higher level provincial administrations of Tegray in the1940s following government instructions that district administrations should prepare these kinds of documents. All bale-gult were instructed by government notice (I have to establish the details) to go to the district or higher administrative offices in order todeclare their gults and to get this gult certificate. Tentatively, I call it "certificate" and I use this term alternatively with the word "title deed".  It is like a title deed, because it entitlted the person or the church to the rights over, and from, the gults. 
 
 The format is the same; it is a form or a table; and as far as I could tell at this stage of my research, a standard form was made in the Centre and was sent out to the provinces. Clerks would fill out this form and finally it would be signed by the clerk (I have to establish this) and then it would be sealed. After that it would be a legal document of rights over the gult.This is confirmed by the fact that wheneve the right was contested, the contestants argued that the document was based on false evidence.  </p>
         </projectDesc>
@@ -58,6 +59,5 @@ The format is the same; it is a form or a table; and as far as I could tell at t
       <revisionDesc>
         <change when="2017-07-19">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>
+    </teiHeader>     <text><body><p></p></body></text>
   </TEI>
-</teiCorpus>
