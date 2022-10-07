@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus7">
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus7" type="work">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title7" type="corpus">Archives du roi Ba'eda Maryam</title>
-          <principal xml:id="principal7">
+          <title>Archives du roi Ba'eda Maryam</title>
+          <principal>
             <persName>
               <forename>Deresse</forename>
               <surname>Aynachew</surname>
@@ -50,12 +52,11 @@
       <!--DESCRIPTION OF THE CORPUS : à encoder pour le filtre CORPUS-->
       <encodingDesc>
         <projectDesc>
-          <p xml:id="projectDesc7">  These are series documents </p>
+          <p>  These are series documents </p>
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
-        <change when="2017-07-19">Création du fichier xml</change>
+        <change when="2017-07-19" who="AW">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>
+    </teiHeader>     <text><body><ab></ab></body></text>
   </TEI>
-</teiCorpus>

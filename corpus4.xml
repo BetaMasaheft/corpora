@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<teiCorpus>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus4">
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus4" type="work">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title xml:id="title4" type="corpus">Archives de  Ṭānā Qirqos</title>
-          <principal xml:id="principal4">
+          <title>Archives de  Ṭānā Qirqos</title>
+          <principal>
             <persName>
               <forename>Claire</forename>
               <surname>Bosc-Tiessé</surname>
@@ -48,8 +50,12 @@
         </sourceDesc>
       </fileDesc>
       <revisionDesc>
-        <change when="2017-07-19">Création du fichier xml</change>
+        <change when="2017-07-19" who="AW">Création du fichier xml</change>
       </revisionDesc>
-    </teiHeader>
+    </teiHeader>     
+  <text>
+    <body>
+      <p></p>
+    </body>
+  </text>
   </TEI>
-</teiCorpus>
