@@ -2,7 +2,7 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus11">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus11" type="work">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
@@ -57,7 +57,7 @@ The format is the same; it is a form or a table; and as far as I could tell at t
         </projectDesc>
       </encodingDesc>
       <revisionDesc>
-        <change when="2017-07-19">Création du fichier xml</change>
+        <change when="2017-07-19" who="LB">Création du fichier xml</change>
       </revisionDesc>
     </teiHeader>     <text><body><p></p></body></text>
   </TEI>
