@@ -2,12 +2,12 @@
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rng"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus3" type="work">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="corpus3" type="corp">
     <teiHeader>
       <fileDesc>
         <!--INFORMATION ON THE ELECTRONIC EDITION-->
         <titleStmt>
-          <title>Archives d'Aksum</title>
+          <title type="corpus">Archives d'Aksum</title>
           <principal>
             <persName>
               <forename>Anaïs</forename>
